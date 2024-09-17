@@ -1,0 +1,26 @@
+.container {
+    background: rgb(19, 16, 224);
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#newTaskInput {
+    background: rgb(197, 216, 196);
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#taskList li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+    background: rgb(17, 248, 86);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+    background: rgb(139, 10, 92);
+}
